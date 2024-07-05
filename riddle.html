@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riddle Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="riddle-box">
+            <h1>Answer the riddle to continue:</h1>
+            <h2>What has keys but can't open locks?</h2>
+            <input type="text" id="answer" placeholder="Your answer">
+            <button onclick="checkAnswer()">Submit</button>
+            <script>
+                function checkAnswer() {
+                    let answer = document.getElementById("answer").value.toLowerCase();
+                    let result = document.getElementById("result");
+                    if (answer === "piano") {
+                        window.location.href = "real.html";
+                    } else {
+                        result.textContent = "Incorrect. Try again!";
+                    }
+                }
+
+            </script>
+            <p id="result"></p>
+        </div>
+    </div>
+</body>
+</html>
+
+
