@@ -12,7 +12,7 @@ body {
   font-size: 14pt;
 }
 body::-webkit-scrollbar {
-  width: 5px; /* Track width */
+  width: 8px; /* Track width */
 }
 
 body::-webkit-scrollbar-track {
