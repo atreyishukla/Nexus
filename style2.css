@@ -44,7 +44,7 @@ a {
 /* NAV BAR */
 @font-face {
     font-family: 'Satoshi-Regular';
-    src: url('fonts/Satoshi-Regular.otf') format('truetype');
+    src: url('Satoshi-Regular.otf') format('truetype');
 }
 .nav {
   position: fixed;
@@ -88,7 +88,7 @@ a {
 /* 1. HOME SECTION */
 @font-face {
   font-family: 'Polymath Display Demo';
-  src: url('fonts/POLYMATHDISPDEMO-BOLD.OTF') format('truetype');
+  src: url('POLYMATHDISPDEMO-BOLD.OTF') format('truetype');
 }
 h1 {
   text-align: center;
